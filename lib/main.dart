@@ -15,7 +15,7 @@ class NotesApp extends StatelessWidget {
         brightness: Brightness.dark,
         
       ),
-      home: NotesView(),
+      home: const NotesView(),
     );
   }
 }
