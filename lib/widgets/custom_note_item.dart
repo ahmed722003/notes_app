@@ -8,7 +8,7 @@ class NoteItem extends StatelessWidget {
     // Example date, replace with actual note creation date
 
     return Padding(
-      padding: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.symmetric(vertical: 2.0, horizontal: 8),
       child: Card(
         color: const Color.fromARGB(255, 221, 186, 121),
         child: Column(
