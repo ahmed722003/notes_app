@@ -35,7 +35,7 @@ class NotesView extends StatelessWidget {
         ],
       ),
       floatingActionButton: Padding(
-        padding: const EdgeInsets.only(right: 10.0),
+        padding: const EdgeInsets.only(right: 10.0, bottom: 25),
         child: FloatingActionButton(
           onPressed: () {
             showModalBottomSheet(
