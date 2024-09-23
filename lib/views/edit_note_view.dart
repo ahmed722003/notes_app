@@ -20,7 +20,7 @@ class EditNoteView extends StatelessWidget {
             padding: const EdgeInsets.only(right: 16.0),
             onPressed: () {},
             icon: const Icon(
-              Icons.search,
+              Icons.done,
               size: 35,
               shadows: [
                 Shadow(

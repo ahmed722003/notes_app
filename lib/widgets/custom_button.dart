@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key});
-
+  const CustomButton({super.key, required this.buttonName});
+  final String buttonName;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -12,10 +12,10 @@ class CustomButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(12.0),
         color: const Color.fromARGB(255, 221, 186, 121),
       ),
-      child: const Center(
+      child:  Center(
         child: Text(
-          'Add',
-          style: TextStyle(
+          buttonName,
+          style: const TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 25.0,
